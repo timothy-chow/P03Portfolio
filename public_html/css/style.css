@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
 
 * {
-    font-family: 'Karla', sans-serif;
+    font-family: "Karla", sans-serif;
     box-sizing: border-box;
 }
 
@@ -53,7 +53,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #ff8c42;
+    color: #4266ff;
     transform: skewX(-15deg);
 }
 
@@ -115,13 +115,13 @@ h4 {
 }
 
 .section-element {
-    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .section-element h2 {
     text-align: left;
     font-size: 1rem;
-    color: #ff8c42;
+    color: #4266ff;
 }
 
 .in-text-link {
@@ -133,8 +133,8 @@ h4 {
 }
 
 .in-text-link:hover {
-    color: #ff8c42;
-    border-bottom: 1px solid #ff8c42;
+    color: #4266ff;
+    border-bottom: 1px solid #4266ff;
 }
 
 .code-container {
@@ -161,12 +161,12 @@ code {
 }
 
 .nav-btn:hover {
-    color: #ff8c42;
+    color: #4266ff;
     transform: skewX(-15deg);
 }
 
 a.btn {
-    color: #ff8c42;
+    color: #4266ff;
     display: inline-block;
     padding: 0.5rem;
     padding-left: 1.5rem;
@@ -178,8 +178,8 @@ a.btn {
 
 a.btn:hover {
     color: #fdfdfd;
-    border: 1px solid #ff8c42;
-    background-color: #ff8c42;
+    border: 1px solid #4266ff;
+    background-color: #4266ff;
 }
 
 label {
@@ -220,10 +220,11 @@ ol {
     padding: 0;
 }
 
- span {
+span {
     position: absolute;
     font-size: 3em;
     font-weight: 700;
+    color: #4266ff;
 }
 
 ol li {
@@ -235,4 +236,145 @@ ol li {
 
 li p {
     margin-left: 6rem;
+}
+
+.rendered nav ul {
+    position: relative;
+    left: 0rem;
+}
+
+ul.project-list {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+ul.project-list li {
+    display: inline-block;
+    position: relative;
+}
+
+ul.project-list li img {
+    width: 100%;
+    display: block;
+}
+
+span.text-content h2 {
+    font-size: 2rem;
+    color: #fdfdfd;
+    text-transform: none;
+}
+
+span.text-content p {
+    font-size: 1rem;
+    color: #fdfdfd;
+    margin: auto;
+    font-weight: 100;
+}
+
+span.text-content h2,
+span.text-content p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+span.text-content {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+ul.project-list li:hover span.text-content {
+    opacity: 1;
+}
+
+ul.project-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
+    position: relative;
+    top: 35%;
+}
+
+ul.project-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
+    position: relative;
+    top: 35%;
+}
+
+.structure p {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-col-12of12 {
+    width: 100%;
+    background: #FDFDFD;
+    height: 200px;
+    border: 1px solid #4266ff;
+}
+
+.grid-col-6of12 {
+    width: 50%;
+    background: #FDFDFD;
+    height: 200px;
+    border: 1px solid #4266ff;
+}
+
+.grid-col-4of12 {
+    width: 33.3333333%;
+    background: #FDFDFD;
+    height: 200px;
+    border: 1px solid #4266ff;
+}
+
+.grid-col-3of12 {
+    width: 25%;
+    background: #FDFDFD;
+    height: 200px;
+    border: 1px solid #4266ff;
+}
+
+.box {
+    width: 33%;
+    height: 200px;
+}
+
+.box p {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#offwhite {
+    background: #fdfdfd;
+    border: 1px solid #4266ff;
+    color: #333;
+}
+
+#blue {
+    background: #4266ff;
+    color: #fdfdfd;
+}
+
+#black {
+    background: #333333;
+    color: #fdfdfd;
 }
