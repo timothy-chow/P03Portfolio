@@ -97,13 +97,16 @@ h3 {
     text-transform: uppercase;
 }
 
-/*
-h4 {
-    color: #333;
-    font-weight: 400;
-    text-decoration: underline;
+#intro {
+    background: #fdfdfd;
+    height: 100vh;
 }
-*/
+
+#intro h1 {
+    background: #fdfdfd;
+    position: relative;
+    top: 20%;
+}
 
 #intro p {
     color: #333;
@@ -112,6 +115,8 @@ h4 {
     width: 100%;
     margin: auto;
     line-height: 2rem;
+    position: relative;
+    top: 20%;
 }
 
 .section-element {
