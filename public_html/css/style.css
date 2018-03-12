@@ -63,8 +63,6 @@ nav li a:hover {
 }
 
 .content {
-    padding-top: 5rem;
-    ;
     width: 50%;
     margin: auto;
 }
@@ -105,7 +103,7 @@ h3 {
 #intro h1 {
     background: #fdfdfd;
     position: relative;
-    top: 20%;
+    top: 33%;
 }
 
 #intro p {
@@ -116,7 +114,7 @@ h3 {
     margin: auto;
     line-height: 2rem;
     position: relative;
-    top: 20%;
+    top: 33%;
 }
 
 .section-element {
