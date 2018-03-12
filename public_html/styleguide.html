@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylegrid.css">
+    <title>Timothy Chow Style Guide</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="styleguide.html">
+                <h1>Tim(othy) Chow</h1>
+                <!--              <img src="img/portfolio-logo.png" alt="Logo">-->
+            </a>
+        </div>
+        <div class="nav-container" id="myNav">
+            <div class="hamburger" onclick="myFunction()">
+                <div class="ham-bar1"></div>
+                <div class="ham-bar2"></div>
+                <div class="ham-bar3"></div>
+            </div>
+            <ul>
+                <li><a href="#interactive-elements">Interactive Elements</a></li>
+                <li><a href="#text-styling">Text Styling</a></li>
+                <li><a href="#combined-elements">Combined Elements</a></li>
+                <li><a href="#0">Citations</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content-container">
+        <div class="content">
+            <div id="intro">
+                <h1>Hey there, I'm Timothy</h1>
+                <p>... but you can call me Tim. I'm a visual UX designer currently studying interaction design at Simon Fraser University. In my work, I aim to create holistic experiences where I focus on making things meaningful. If I'm not working on a project, you'll likely find me fixated on hockey or bingeing on the latest shows.</p>
+            </div>
+            <div id="interactive-elements">
+                <h2>Interactive Elements</h2>
+                <div class="section-element">
+                    <h2>In Text Link</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>.in-text-link</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;a href="#0" class="in-text-link">In Text Link&lt;/a></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <a href="#0" class="in-text-link">In-text-link</a>
+                </div>
+                
+                <div class="section-element">
+                    <h2>Navigation Button</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>nav ul li a</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;nav></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;ul></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;a href="#0">Navigation&lt;/a></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/ul></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/nav></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <a href="#0" class="nav-btn">Navigation</a>
+                </div>
+                
+                <div class="section-element">
+                    <h2>Button</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>.btn</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                              <code>&lt;a href="#0" class="btn">+ Read more&lt;/a></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <a href="#0" class="btn">+ Read more</a>
+                </div>
+                
+                <div class="section-element">
+                    <h2>Label</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>label</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                              <code>&lt;label>Text Field&lt;/label></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <label>Text Field</label>
+                </div>
+                
+                <div class="section-element">
+                    <h2>Text Field</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>input</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;input class="input-text-default" type="text" name="name"></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div>
+                        <input class="input-text-default" type="text" name="name" placeholder="Name">
+                    </div>
+                </div>
+                
+            </div>
+            <div id="text-styling">
+                <h2>Text Styling</h2>
+            </div>
+            <div id="combined-elements">
+                <h2>Combined Elements</h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
