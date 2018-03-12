@@ -200,3 +200,39 @@ input:focus {
     outline: none;
     border-color: #333;
 }
+
+.rendered h2 {
+    color: #333;
+    letter-spacing: 0.05rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rendered h3 {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ span {
+    position: absolute;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+ol li {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+li p {
+    margin-left: 6rem;
+}
