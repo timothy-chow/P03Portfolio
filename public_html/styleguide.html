@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylegrid.css">
+    <title>Timothy Chow Style Guide</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/smoothScroll.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="styleguide.html">
+                <h1>Tim(othy) Chow</h1>
+            </a>
+        </div>
+        <div class="nav-container" id="myNav">
+            <div class="hamburger" onclick="myFunction()">
+                <div class="ham-bar1"></div>
+                <div class="ham-bar2"></div>
+                <div class="ham-bar3"></div>
+            </div>
+            <ul>
+                <li><a href="#interactive-elements">Interactive Elements</a></li>
+                <li><a href="#text-styling">Text Styling</a></li>
+                <li><a href="#combined-elements">Combined Elements</a></li>
+                <li><a href="#0">Citations</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content-container">
+        <div class="content">
+            <div id="intro">
+                <h1>Hey there, I'm Timothy</h1>
+                <p>... but you can call me Tim. I'm a visual UX designer currently studying interaction design at Simon Fraser University. In my work, I aim to create holistic experiences where I focus on making things meaningful. If I'm not working on a project, you'll likely find me fixated on hockey or bingeing on the latest shows.</p>
+            </div>
+            <div id="interactive-elements">
+                <h2>Interactive Elements</h2>
+                <div class="section-element">
+                    <h2>In Text Link</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>.in-text-link</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;a href="#0" class="in-text-link">In Text Link&lt;/a></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <a href="#0" class="in-text-link">In-text-link</a>
+                </div>
+
+                <div class="section-element">
+                    <h2>Navigation Button</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>nav ul li a</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;nav></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;ul></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;a href="#0">Navigation&lt;/a></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/ul></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/nav></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <a href="#0" class="nav-btn">Navigation</a>
+                </div>
+
+                <div class="section-element">
+                    <h2>Button</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>.btn</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;a href="#0" class="btn">+ Read more&lt;/a></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <a href="#0" class="btn">+ Read more</a>
+                </div>
+
+                <div class="section-element">
+                    <h2>Label</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>label</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;label>Text Field&lt;/label></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <label>Text Field</label>
+                </div>
+
+                <div class="section-element">
+                    <h2>Text Field</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>input</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;input class="input-text-default" type="text" name="name"></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div>
+                        <input class="input-text-default" type="text" name="name" placeholder="Name">
+                    </div>
+                </div>
+
+            </div>
+            <div id="text-styling">
+                <h2>Text Styling</h2>
+                <div class="section-element">
+                    <h2>Three levels of headers</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>h1</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;h1>Header 1&lt;/h1></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div class="rendered">
+                        <h1>Header 1</h1>
+                    </div>
+
+                    <h3>CSS Selector:</h3>
+                    <p>h2</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;h2>Header 2&lt;/h2></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div class="rendered">
+                        <h2>Header 2</h2>
+                    </div>
+
+                    <h3>CSS Selector:</h3>
+                    <p>h3</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;h3>Header 3&lt;/h3></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div class="rendered">
+                        <h3>Header 3</h3>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <h2>Paragraph</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>p</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="section-element">
+                    <h2>Bulleted List</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>ul, ul li</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;ul></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;li>item&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;li>item&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;li>item&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;ul></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <ul>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>
+                </div>
+
+                <div class="section-element">
+                    <h2>Numbered List</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>ol, ol li span, ol li p</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;ol></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;span>01&lt;/span></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;span>02&lt;/span></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/ol></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <ol>
+                        <li>
+                            <span>01</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                        <li>
+                            <span>02</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div id="combined-elements">
+                <h2>Combined Elements</h2>
+                <div class="section-element">
+                    <h2>Main Navigation</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>nav, nav ul, nav li a</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <div class="code-space">
+                                <code>&lt;nav></code>
+                            </div>
+                            <div class="code-space">
+                                <code>&lt;ul></code>
+                            </div>
+                            <div class="code-space">
+                                <code>&lt;li>&lt;a href="#interactive-elements">Interactive Elements&lt;/a>&lt;/li></code>
+                            </div>
+                            <div class="code-space">
+                                <code>&lt;li>&lt;a href="#text-styling">Text Styling&lt;/a>&lt;/li></code>
+                            </div>
+                            <div class="code-space">
+                                <code>&lt;li>&lt;a href="#combined-elements">Combined Elements&lt;/a>&lt;/li></code>
+                            </div>
+                            <div class="code-space">
+                                <code>&lt;li>&lt;a href="citations.html">Citations&lt;/a>&lt;/li></code>
+                            </div>
+                            <div class="code-space">
+                                <code>&lt;/ul></code>
+                            </div>
+                            <div class="code-space">
+                                <code>&lt;/nav></code>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div class="rendered">
+                        <nav>
+                            <ul>
+                                <li><a href="#0">Interactive Elements</a></li>
+                                <li><a href="#0">Text Styling</a></li>
+                                <li><a href="#0">Combined Elements</a></li>
+                                <li><a href="#0">Citations</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <h2>Portfolio Piece Listing</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>.project-list ul li</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;ul class="project-list"></code>
+                        </div>
+                        <div class="code-space">
+                            <code> &lt;li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;a href="#0"></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;img src="img/photograph-vr-img.png" alt="photographVR"></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/span class="text-content"></code>
+                        </div>
+                        <div class="code-space">
+                            <code> &lt;h2>photograph–VR&lt;h2></code>
+                        </div>
+                        <div class="code-space">
+                            <code> &lt;p>Ideation, Prototyping, Product Design, Illustration&lt;/p></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/span></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/a></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/li></code>
+                        </div>
+                        <div class="code-space">
+                            <code>&lt;/ul></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <ul class="project-list">
+                        <li>
+                            <a href="#0">
+                        <img src="img/photograph-vr-img.png" alt="photograph-VR"/>
+                        <span class="text-content"><h2>photograph–VR</h2><p>Ideation, Prototyping, Product Design, Illustration</p></span>
+                    </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section-element">
+                    <h2>Grid Structure</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>.grid-container, .grid-col-12of12, .grid-col-6of12, .grid-col-4of12, .grid-col-3of12</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>&lt;div class="grid-container"></code>
+                            <code>&lt;div class="grid-col-6of12"></code>
+                            <code>&lt;/div></code>
+                            <code>&lt;div class="grid-col-6of12"></code>
+                            <code>&lt;/div></code>
+                            <code>&lt;/div></code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div class="grid-container structure">
+                        <div class="grid-col-12of12">
+                            <p>100%</p>
+                        </div>
+                    </div>
+                    <div class="grid-container structure">
+                        <div class="grid-col-6of12">
+                            <p>50%</p>
+                        </div>
+                        <div class="grid-col-6of12">
+                            <p>50%</p>
+                        </div>
+                    </div>
+                    <div class="grid-container structure">
+                        <div class="grid-col-4of12">
+                            <p>33%</p>
+                        </div>
+                        <div class="grid-col-4of12">
+                            <p>33%</p>
+                        </div>
+                        <div class="grid-col-4of12">
+                            <p>33%</p>
+                        </div>
+                    </div>
+                    <div class="grid-container structure">
+                        <div class="grid-col-3of12">
+                            <p>25%</p>
+                        </div>
+                        <div class="grid-col-3of12">
+                            <p>25%</p>
+                        </div>
+                        <div class="grid-col-3of12">
+                            <p>25%</p>
+                        </div>
+                        <div class="grid-col-3of12">
+                            <p>25%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-element">
+                    <h2>Colour Swatch</h2>
+                    <h3>CSS Selector:</h3>
+                    <p>Not Applicable</p>
+                    <h3>Sample Code:</h3>
+                    <div class="code-container">
+                        <div class="code-space">
+                            <code>Not Applicable</code>
+                        </div>
+                    </div>
+                    <h3>Rendered Element:</h3>
+                    <div class="grid-container">
+                        <div class="box" id="offwhite">
+                            <p>#fdfdfd</p>
+                            <p>Background and text</p>
+                        </div>
+                        <div class="box" id="blue">
+                            <p>#4266ff</p>
+                            <p>Headers and hover</p>
+                        </div>
+                        <div class="box" id="black">
+                            <p>#333333</p>
+                            <p>Text</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
