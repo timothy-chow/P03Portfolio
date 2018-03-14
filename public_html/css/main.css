@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
 
-* { 
-    font-family: "Karla", sans-serif; 
-    box-sizing: border-box; 
-} 
+* {
+    font-family: "Karla", sans-serif;
+    box-sizing: border-box;
+}
 
 ::selection {
     background: #ffff66;
@@ -39,7 +39,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.logo-container h1:hover{
+.logo-container h1:hover {
     color: #4266ff;
 }
 
@@ -246,12 +246,8 @@ ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > 
     padding-bottom: 4rem;
 }
 
-.section-element h2{
+.section-element h2 {
     text-align: left;
-}
-
-.section-element p {
-
 }
 
 .supplemental-pdf {
@@ -331,3 +327,46 @@ ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > 
     padding-bottom: 1rem;
 }
 
+#about {
+    padding-top: 5rem;
+}
+
+#about h1 {
+    text-align: left;
+}
+
+#about h2 {
+    text-align: left;
+}
+
+#about a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #333;
+}
+
+#about a:hover {
+    background-color: #ffff66;
+}
+
+#about > .content-container > .content {
+    width: 70%;
+}
+
+#about .grid-col-1of2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about-bio {
+
+}
+
+#connect {
+    padding-top: 2rem;
+}
+
+a.connect-links {
+    display: inline-block;
+    margin-right: 2rem;
+}
