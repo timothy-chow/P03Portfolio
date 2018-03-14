@@ -1,0 +1,13 @@
+.grid-container {
+    display: flex;
+}
+
+.grid-col-1of2 {
+    margin: 0;
+    width: 50%;
+}
+
+.grid-col-1of3 {
+    margin: 0;
+    width: 33.333333%;
+}
