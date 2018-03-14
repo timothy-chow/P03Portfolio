@@ -30,7 +30,15 @@ body {
     margin-left: 2rem;
     margin-top: 2rem;
     color: #333;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
 }
+
+.logo-container h1:hover{
+    color: #4266ff;
+}
+
 
 nav ul {
     position: fixed;
@@ -44,21 +52,26 @@ nav ul {
 }
 
 nav li a {
+    font-size: 0.8rem;
     margin-top: 1rem;
     display: inline-block;
     color: #333;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 400;
     transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #fdfdfd;
 }
 
 nav li a:hover {
     color: #4266ff;
     transform: skewX(-15deg);
+    border-bottom: 1px solid #4266ff;
 }
 
 .content-container {
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
     min-height: 100%;
 }
 
@@ -273,7 +286,7 @@ span.text-content p {
     font-size: 1rem;
     color: #fdfdfd;
     margin: auto;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 span.text-content h2,
