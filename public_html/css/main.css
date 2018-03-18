@@ -328,11 +328,13 @@ ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > 
 }
 
 #about {
-    padding-top: 5rem;
+    padding-top: 20vh;
+    height: 50vh;
 }
 
 #about h1 {
     text-align: left;
+    margin-top: 0;
 }
 
 #about h2 {
@@ -358,8 +360,9 @@ ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > 
     padding-right: 2rem;
 }
 
-.about-bio {
-
+#about img {
+    float: right;
+    width: 80%;
 }
 
 #connect {
