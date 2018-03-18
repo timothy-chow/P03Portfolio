@@ -238,18 +238,17 @@ ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > 
 }
 
 .opening-statement {
-    padding-top: 2rem;
-    padding-bottom: 5rem;
+    height: 100vh;
     text-align: center;
 }
 
-.opening-statement h1 {
-    background-color: #ffff66;
-    font-size: 5rem;
+.opening-statement h1, .opening-statement h2{
+    position: relative;
+    top:40%;
 }
 
 .opening-statement h2 {
-    font-size: 2rem;
+    font-weight: 400;
 }
 
 .section-element {
@@ -297,6 +296,7 @@ ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > 
 
 .project-content span {
     position: absolute;
+    margin-top:0.5rem;
     font-size: 3em;
     font-weight: 700;
     background-color: #ffff66;
@@ -340,6 +340,11 @@ ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > 
 #about {
     padding-top: 20vh;
     height: 50vh;
+}
+.video-right video {
+    float: right;
+    box-shadow: 0px 10px 40px #AAA;
+    margin-right: 4rem;
 }
 
 #about h1 {
@@ -387,11 +392,7 @@ a.connect-links {
     margin-right: 2rem;
 }
 
-.video-right video {
-    float: right;
-    box-shadow: 0px 10px 40px #AAA;
-}
-
 .video-left video {
     box-shadow: 0px 10px 40px #AAA;
+    margin-left: 4rem;
 }
