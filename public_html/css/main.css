@@ -117,6 +117,7 @@ img {
 }
 
 #intro {
+    margin-top: -1.35rem;
     background: #fdfdfd;
     height: 100vh;
 }
@@ -124,10 +125,11 @@ img {
 #intro h1 {
     background: #fdfdfd;
     position: relative;
-    top: 33%;
+    top: 40%;
+    margin-bottom: 0.5rem;
 }
 
-#intro p {
+#intro h2 {
     color: #333;
     font-size: 1rem;
     font-weight: 400;
@@ -135,7 +137,7 @@ img {
     margin: auto;
     line-height: 2rem;
     position: relative;
-    top: 33%;
+    top: 40%;
 }
 
 ul.project-list {
@@ -374,6 +376,8 @@ ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > 
     float: right;
     width: 80%;
 }
+
+.about-bio {}
 
 #connect {
     padding-top: 2rem;
