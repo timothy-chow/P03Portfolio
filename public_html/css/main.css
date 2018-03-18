@@ -30,6 +30,7 @@ body {
 }
 
 .logo-container h1 {
+    display: block;
     text-align: left;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -38,11 +39,6 @@ body {
     font-weight: 700;
     transition: all 0.3s ease-in-out;
 }
-
-.logo-container h1:hover {
-    color: #4266ff;
-}
-
 
 nav ul {
     position: fixed;
@@ -67,9 +63,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #4266ff;
-    transform: skewX(-15deg);
-    border-bottom: 1px solid #4266ff;
+    background-color: #ffff66;
 }
 
 .content-container {
@@ -110,6 +104,10 @@ h3 {
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+p {
+    line-height: 1.75rem;
 }
 
 img {
@@ -345,6 +343,7 @@ ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > 
     text-decoration: none;
     font-weight: 700;
     color: #333;
+    transition: all 0.3s ease-in-out;
 }
 
 #about a:hover {
