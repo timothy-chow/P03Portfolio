@@ -251,7 +251,7 @@ ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > 
     text-align: center;
 }
 
-.opening-statement h1, .opening-statement h2{
+.opening-statement h1, .opening-statement h2, .opening-statement p{
     position: relative;
     top:40%;
 }
