@@ -147,8 +147,8 @@ ul.project-list {
 ul.project-list li {
     display: inline-block;
     position: relative;
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin-top: 27vh;
+    margin-bottom: 27vh;
 }
 
 ul.project-list li img {
