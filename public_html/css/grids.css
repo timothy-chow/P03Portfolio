@@ -79,6 +79,12 @@
     }
 }
 
+@media(max-width:62.5rem) {
+    .logo-container {
+        background-color: #fdfdfd;
+    }
+}
+
 @media(max-width:60rem) {
     .content {
         width: 75%;

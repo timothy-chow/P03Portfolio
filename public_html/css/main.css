@@ -24,7 +24,9 @@ body {
 
 .logo-container {
     position: fixed;
+    top: 0%;
     z-index: 1;
+    margin-left: 2rem;
 }
 
 .logo-container a {
@@ -34,15 +36,13 @@ body {
 .logo-container h1 {
     display: block;
     text-align: left;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom:2rem;
     color: #333;
     font-size: 1rem;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
 }
-
-nav h1 {}
 
 nav ul {
     position: fixed;
