@@ -34,7 +34,7 @@ body {
 }
 
 .logo-container h1 {
-    display: block;
+    display: inline-block;
     text-align: left;
     margin-top: 3rem;
     margin-bottom:2rem;
