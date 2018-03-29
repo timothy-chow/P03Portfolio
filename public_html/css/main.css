@@ -1,4 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');*/
+
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 * {
@@ -37,7 +38,7 @@ body {
     display: inline-block;
     text-align: left;
     margin-top: 3rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     color: #333;
     font-size: 1rem;
     font-weight: 700;
@@ -111,7 +112,7 @@ nav li a:hover {
 }
 
 h1 {
-/*    font-family: 'Lora';*/
+    /*    font-family: 'Lora';*/
     color: #333;
     letter-spacing: 0.025em;
     font-size: 2rem;
@@ -122,7 +123,7 @@ h1 {
 }
 
 h2 {
-/*    font-family: 'Lora';*/
+    /*    font-family: 'Lora';*/
     color: #333;
     letter-spacing: 0.05rem;
     font-size: 1.15rem;
@@ -131,7 +132,7 @@ h2 {
 }
 
 h3 {
-/*    font-family: 'Lora';*/
+    /*    font-family: 'Lora';*/
     color: #333;
     letter-spacing: 0.05rem;
     font-size: 0.85rem;
@@ -155,7 +156,6 @@ img {
 #intro h1 {
     background: #fdfdfd;
     position: relative;
-    top: 40%;
     margin-bottom: 0.5rem;
 }
 
@@ -167,26 +167,6 @@ img {
     margin: auto;
     line-height: 2rem;
     position: relative;
-    top: 40%;
-}
-
-ul.project-list {
-    list-style: none;
-    margin: auto;
-    padding: 0;
-    text-align: center;
-}
-
-ul.project-list li {
-    display: inline-block;
-    position: relative;
-    margin-top: 27vh;
-    margin-bottom: 27vh;
-}
-
-ul.project-list li img {
-    width: 100%;
-    display: block;
 }
 
 span.text-content h2 {
@@ -208,16 +188,12 @@ span.text-content p {
     vertical-align: middle;
 }
 
-span.text-content {
-    background: rgba(0, 0, 0, 0.5);
+.project span.text-content {
     color: white;
     cursor: pointer;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
     width: 100%;
-    height: 100%;
     position: absolute;
+    top: 42.5%;
     opacity: 0;
     -webkit-transition: opacity 300ms;
     -moz-transition: opacity 300ms;
@@ -225,58 +201,22 @@ span.text-content {
     transition: opacity 300ms;
 }
 
-ul.project-list li:hover span.text-content {
+.project:hover span.text-content {
     opacity: 1;
 }
 
-ul.project-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-    position: relative;
-    top: 35%;
+.project:hover .overlay {
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #333;
+    opacity: 0.85;
 }
 
-ul.project-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(5) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(5) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-    position: relative;
-    top: 35%;
-}
-
-ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-    position: relative;
-    top: 35%;
+.project a img {
+    margin-bottom: none;
+    padding-bottom: none;
 }
 
 .opening-statement {

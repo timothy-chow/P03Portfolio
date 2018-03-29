@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grids.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <title>Timothy Chow</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+</head>
+
+<body>
+    <div id="home"></div>
+    <nav>
+        <div class="logo-container">
+            <a href="index.html">
+                <h1>Timothy Chow</h1>
+            </a>
+        </div>
+        <div class="nav-container" id="myNav">
+            <div class="hamburger" onclick="myFunction()">
+                <div class="ham-bar1"></div>
+                <div class="ham-bar2"></div>
+                <div class="ham-bar3"></div>
+            </div>
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="pdf/Resume.pdf">Resume</a></li>
+                <li><a href="mailto:tmc21@sfu.ca">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content-container">
+        <div class="content">
+            <div id="fullpage">
+                <div class="section" id="intro">
+                    <h1>Hey there, I'm Timothy</h1>
+                    <h2>A visual ux designer</h2>
+                </div>
+                <div class="section">
+                    <div class="project">
+                        <a href="photographVR.html">
+                            <div class="overlay"></div>
+                            <img src="img/photograph-vr-img.png" alt="photogra–VR" />
+                            <span class="text-content"><h2>photogra–VR</h2><p>Ideation, Prototyping, Product Design, Illustration</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="project">
+                        <a href="yelp.html">
+                            <div class="overlay"></div>
+                            <img src="img/yelp.png" alt="Yelp Feature" />
+                            <span class="text-content"><h2>Yelp: Compare</h2><p>UX Research, Interface Design, Interaction Design</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="project">
+                        <a href="anecdote.html">
+                            <div class="overlay"></div>
+                            <img src="img/anecdote.png" alt="anec+dote" />
+                            <span class="text-content"><h2>anec + dote</h2><p>Front End Web, Interface Design, Visual Design, Responsiveness</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="project">
+                        <a href="#0">
+                            <div class="overlay"></div>
+                            <img src="img/HPR.png" alt="HPR" />
+                            <span class="text-content"><h2>Hiker's Preparation Resource</h2><p>Coming April 2018</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="project">
+                        <a href="thepeak.html">
+                            <div class="overlay"></div>
+                            <img src="img/thepeak.png" alt="The Peak" />
+                            <span class="text-content"><h2>The Peak</h2><p>Assistant Production Editor</p></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#fullpage').fullpage({
+            scrollingSpeed: 800,
+            autoScrolling: false,
+            fitToSection: true,
+            fitToSectionDelay: 500,
+            scrollBar: true,
+            easing: 'easeInOutCubic',
+            easingcss3: 'ease',
+            loopBottom: false,
+            loopTop: false,
+            loopHorizontal: true,
+            continuousVertical: false,
+            scrollOverflow: false,
+            touchSensitivity: 15,
+            normalScrollElementTouchThreshold: 5,
+
+            //Accessibility
+            keyboardScrolling: true,
+            animateAnchor: true,
+            recordHistory: false,
+
+            //Design
+            controlArrows: true,
+            responsiveWidth: 460,
+            anchors: ['tim', 'photogra–VR', 'yelp', 'anecdote', 'hpr', 'thepeak'],
+
+        });
+    </script>
+</body>
+</html>
