@@ -1,0 +1,32 @@
+.scrolldown {
+    position: absolute;
+    left: 50%;
+    width: 10px;
+    height: 20px;
+    bottom: 10%;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #333;
+    animation-name: dot;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dot {
+    100% {
+        opacity: 0;
+    }
+    90% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+}
