@@ -83,6 +83,23 @@
     #about > .content-container > .content {
         width: 65%;
     }
+    
+        .project span.text-content {
+        opacity: 1
+    }
+
+    span.text-content h2,
+    span.text-content p {
+        color: #333;
+    }
+
+    .project span.text-content {
+        position: relative;
+    }
+    
+    .tint:hover:before {
+        background: rgba(0,0,0,0);
+    }
 
     #connect {
         padding-bottom: 4rem;
@@ -104,66 +121,6 @@
 @media(max-width:60rem) {
     .content {
         width: 75%;
-    }
-
-    span.text-content {
-        background: rgba(0, 0, 0, 0);
-        opacity: 1
-    }
-
-    ul.project-list li h2,
-    ul.project-list li p {
-        color: #333;
-    }
-
-    ul.project-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(1) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(2) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(3) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(4) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(5) > a:nth-child(1) > .text-content:nth-child(2) > h2:nth-child(1) {
-        position: relative;
-        top: 100%;
-    }
-
-    ul.project-list li:nth-child(5) > a:nth-child(1) > .text-content:nth-child(2) > p:nth-child(2) {
-        position: relative;
-        top: 100%;
     }
 
     .project-content span {
