@@ -31,6 +31,25 @@ body {
     background-color: #fdfdfd;
 }
 
+.loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: #fdfdfd;
+    opacity: 1;
+}
+
+.loader h1 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: relative;
+    top: 50%;
+    letter-spacing: 0.2rem;
+}
+
 .logo-container {
     position: fixed;
     top: 0%;

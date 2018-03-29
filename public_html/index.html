@@ -12,14 +12,23 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
     <title>Timothy Chow</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/smoothScroll.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/jquery.fullPage.js"></script>
-    <script src="js/jquery.fittext.js"></script>
+
+    <script>
+        $(window).load(function() {
+            $(".loader").fadeOut(3000);
+        })
+    </script>
 </head>
 
 <body>
+    <div class="loader">
+        <h1>Loading . . .</h1>
+    </div>
     <div id="home"></div>
     <nav>
         <div class="logo-container">
@@ -130,7 +139,6 @@
             </div>
         </div>
     </div>
-
     <script>
         $('#fullpage').fullpage({
             scrollingSpeed: 800,
@@ -157,7 +165,6 @@
             controlArrows: true,
             responsiveWidth: 460,
             anchors: ['tim', 'photogra–VR', 'yelp', 'anecdote', 'hpr', 'thepeak'],
-
         });
     </script>
 </body>
