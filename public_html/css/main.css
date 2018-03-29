@@ -154,6 +154,7 @@ img {
 }
 
 #intro h1 {
+    font-size: 4rem;
     background: #fdfdfd;
     position: relative;
     margin-bottom: 0.5rem;
@@ -161,7 +162,7 @@ img {
 
 #intro h2 {
     color: #333;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 400;
     width: 100%;
     margin: auto;
