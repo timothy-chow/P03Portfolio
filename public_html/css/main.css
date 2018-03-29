@@ -171,6 +171,7 @@ img {
 
 figure {
     margin: 0;
+    padding-bottom: 0;
 }
 
 .tint {
@@ -191,7 +192,7 @@ figure {
 }
 
 .tint:hover:before {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.1);
 }
 
 .text-content h2 {
@@ -211,6 +212,7 @@ figure {
 .text-content p {
     text-align: center;
     vertical-align: middle;
+    display: none;
 }
 
 .project .text-content {
@@ -233,6 +235,26 @@ figure {
 .project a img {
     margin-bottom: none;
     padding-bottom: none;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+h2.header {
+    font-size: 7rem;
+    position: absolute;
+    margin: 0;
+    right: -12%;
+    top: 64.5%;
+}
+
+p.subheader {
+    font-size: 1rem;
+    position: absolute;
+    margin: 0;
+    right: -12%;
+    top: 82%;
 }
 
 .opening-statement {
