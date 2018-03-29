@@ -194,26 +194,26 @@ figure {
     background: rgba(0,0,0,0.6);
 }
 
-span.text-content h2 {
+.text-content h2 {
     font-size: 2rem;
     color: #fdfdfd;
     text-transform: none;
 }
 
-span.text-content p {
+.text-content p {
     font-size: 1rem;
     color: #fdfdfd;
     margin: auto;
     font-weight: 400;
 }
 
-span.text-content h2,
-span.text-content p {
+.text-content h2,
+.text-content p {
     text-align: center;
     vertical-align: middle;
 }
 
-.project span.text-content {
+.project .text-content {
     color: white;
     cursor: pointer;
     width: 100%;
@@ -226,7 +226,7 @@ span.text-content p {
     transition: opacity 300ms;
 }
 
-.project:hover span.text-content {
+.project:hover .text-content {
     opacity: 1;
 }
 
