@@ -13,6 +13,42 @@
     width: 33.333333%;
 }
 
+@media(max-width:93.75rem) {
+    h2.header {
+        right: -20%;
+    }
+    
+    p.subheader {
+        right: -20%;
+    }
+}
+
+@media(max-width:87.5rem) {
+    h2.header {
+        right: -30%;
+        top: 63%;
+        font-size: 6rem;
+    }
+    
+    p.subheader {
+        right: -30%;
+        top: 80.5%;
+    }
+}
+
+@media (max-width:81.25rem) {
+    h2.header {
+        right: -20%;
+        top: 63%;
+        font-size: 5rem;
+    }
+    
+    p.subheader {
+        right: -20%;
+        top: 76%;
+    }
+}
+
 @media(max-width:75rem) {
     .content {
         width: 66%;
@@ -75,6 +111,10 @@
         transform: translate(0%, 50%) scale(0.6);
         z-index: 1;
     }
+    
+    #landing .hamburger {
+        transform:translate(0%, 103%) scale(0.6);
+    }
 
     #about img {
         width: 100%;
@@ -99,6 +139,18 @@
 
     .tint:hover:before {
         background: rgba(0, 0, 0, 0);
+    }
+    
+    h2.header {
+        display: none;
+    }
+    
+    p.subheader {
+        display: none;
+    }
+    
+    .text-content h2, .text-content p {
+        display: block;
     }
 
     #connect {
