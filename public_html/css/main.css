@@ -12,11 +12,13 @@
 }
 
 html {
-  overflow: scroll;
+    overflow: scroll;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    background: transparent;
+    /* make scrollbar transparent */
 }
 
 html,
@@ -54,7 +56,6 @@ body {
     position: fixed;
     top: 0%;
     z-index: 1;
-    margin-left: 2rem;
 }
 
 .logo-container a {
@@ -63,6 +64,7 @@ body {
 
 .logo-container h1 {
     display: inline-block;
+    margin-left: 2rem;
     text-align: left;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -203,24 +205,24 @@ figure {
 }
 
 .tint {
-  position: relative;
-  float: left;
+    position: relative;
+    float: left;
 }
 
 .tint:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0, 0);
-  transition: all .3s linear;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: all .3s linear;
 }
 
 .tint:hover:before {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .text-content h2 {
