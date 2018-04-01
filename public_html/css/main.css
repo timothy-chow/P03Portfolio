@@ -463,3 +463,28 @@ a.connect-links {
 .next-project a:hover {
     background-color: #ffff66;
 }
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-weight: 700;
+}
+
+footer a {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    border-bottom: solid 2px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+footer a:hover {
+    background-color: #FFFF66;
+}
+
