@@ -1,0 +1,161 @@
+@media(max-width:93.75rem) {
+    h2.header {
+        right: 8%;
+        margin-top: 19rem;
+    }
+
+    p.subheader {
+        right: 8%;
+        margin-top: 29rem;
+    }
+}
+
+@media(max-width:87.5rem) {
+    h2.header {
+        right: 5%;
+        margin-top: 17rem;
+        font-size: 6rem;
+    }
+
+    p.subheader {
+        right: 5%;
+        margin-top: 26rem;
+    }
+
+    .rendered h1 {
+        font-size: 6rem;
+    }
+}
+
+@media(max-width:81.25rem) {
+    h2.header {
+        right: 5%;
+        margin-top: 14rem;
+        font-size: 5rem;
+    }
+
+    p.subheader {
+        right: 5%;
+        margin-top: 21rem;
+    }
+   
+    .rendered h1 {
+        font-size: 5rem;
+    }
+}
+
+@media(max-width:75rem) {
+    .content {
+        width: 66;
+    }
+    
+    .logo-container {
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .nav-container ul li {
+        display: none;
+    }
+
+    .nav-container.responsive {
+        height: 100%;
+        background: #fdfdfd;
+        transition: all 0.3s ease-in-out;
+        z-index: 1002;
+        position: fixed;
+    }
+
+    .nav-container.responsive ul {
+        padding-bottom: 100vh;
+        background-color: #fdfdfd;
+    }
+
+    .nav-container.responsive ul li {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .nav-container.responsive a {
+        transition: all 0.5s ease-in-out;
+        color: #333;
+        font-weight: 400;
+    }
+
+    nav ul {
+        left: 0;
+        top: 10%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    h2.header {
+        display: none;
+    }
+    p.subheader {
+        display: none;
+    }
+    
+    .project .text-content {
+        opacity: 1
+    }
+
+    .text-content h2,
+    .text-content p {
+        color: #333;
+    }
+
+    .project .text-content {
+        position: relative;
+    }
+
+    .tint:hover:before {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    h2.header {
+        display: none;
+    }
+
+    p.subheader {
+        display: none;
+    }
+
+    .text-content h2,
+    .text-content p {
+        display: block;
+    }
+    
+    .hamburger {
+        position: fixed;
+        right: 5%;
+        display: block;
+        float: right;
+        padding: 0;
+        margin: 0;
+        padding-right: rem;
+        transform: translate(0%, 50%) scale(0.6);
+        z-index: 1001;
+    }
+}
+
+@media(max-width:62.5rem) {
+    .logo-container {
+        background-color: #fdfdfd;
+        z-index: 1000;
+    }
+}
+
+@media(max-width:60rem) {
+    .content {
+        width: 75%;
+    }
+}
+
+@media(max-width:30rem) {
+    .content {
+        width: 100%;
+    }
+}
