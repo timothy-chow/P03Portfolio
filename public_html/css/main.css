@@ -109,8 +109,8 @@ nav li a:hover {
 }
 
 .nav-container.responsive .ham-bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 50px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-8px, 50px);
+    transform: rotate(-45deg) translate(-8px, 6px);
 }
 
 .nav-container.responsive .ham-bar2 {
@@ -118,8 +118,8 @@ nav li a:hover {
 }
 
 .nav-container.responsive .ham-bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-9px, -8px);
+    transform: rotate(45deg) translate(-9px, -8px);
 }
 
 .hamburger {
@@ -476,3 +476,27 @@ footer a:hover {
     background-color: #FFFF66;
 }
 
+#citations {
+    padding-top: 20vh;
+}
+
+.citations h2 {
+    margin-bottom: 2rem;
+}
+
+.citations a {
+    display: table;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #333;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.citations a:hover {
+    background-color: #ffff66;
+}
