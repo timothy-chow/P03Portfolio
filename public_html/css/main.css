@@ -251,8 +251,8 @@ figure {
 }
 
 .project a img {
-    margin-bottom: none;
-    padding-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .project a {
